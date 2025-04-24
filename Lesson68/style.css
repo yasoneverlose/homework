@@ -1,0 +1,35 @@
+body {
+    background: black;
+}
+
+.header__container {
+    max-width: 1000px;
+    max-height: 100%;
+}
+
+.header__text {
+    color: aliceblue;
+}
+
+.header__block-rectengle {
+    border-radius: 5px;
+    position: fixed;
+    top: 250px;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+    width: 400px;
+    height: 45px;
+    background-color: aliceblue;
+}
+
+.header__block-circle {
+    position: fixed;
+    width:50px;
+    height: 50px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    top: 43%;
+    left: 53%;
+
+}
