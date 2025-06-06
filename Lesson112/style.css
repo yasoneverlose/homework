@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.btn-open {
+    width: 300px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: #000000c1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+
+
+.modal--open {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal__window {
+    position: relative;
+    max-width: 1196px;
+    height: 50%;
+    width: 60%;
+    padding: 50px 20px 20px 20px;
+    background: #222;
+    border-radius: 19px;
+}
+
+.modal__title {
+    display: flex;
+    justify-content: end;
+    margin-top: -34%;
+    margin-right: 57px;
+    color: aliceblue;
+}
+
+.modal__image {
+    border-radius: 15px;
+}
+
+
+.form__text {
+    margin-left: 50%;
+    margin-top: 30px;
+    width: 44%;
+    height: 39px;
+    background-color: #515151;
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+}
+
+.request-form__text {
+    line-height: 1.4;
+    color: aliceblue;
+    margin-left: 51%;
+    margin-top: 30px;
+    width: 46%;
+    font-size: 12px;
+}   
+
+
+.modal__form-button {
+    background-color: azure;
+    color: rgb(2, 2, 2);
+    margin-left: 50%;
+    margin-top: 30px;
+    width: 44%;
+    height: 55px;
+    border-radius: 15px;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+
+.window__svg {
+    max-width: 30px;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+}
+
+
+.modal__close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: 900;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(67, 67, 70);
+
+}
+
+span {
+    color: blue;
+}
+
+.form__text-color {
+    color: aliceblue;
+}
