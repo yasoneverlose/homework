@@ -1,0 +1,135 @@
+.main__ask {
+    padding-bottom: 158px;
+}
+
+.ask__inner {
+    display: flex;
+    flex-direction: column;
+    max-width: 430px;
+    width: 100%;
+}
+
+.ask__title {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 117%;
+    max-width: 430px;
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.ask__text {
+    font-size: 22px;
+    line-height: 159%;
+    margin-bottom: 484px;
+    margin-left: 25px;
+}
+
+.ask__button {
+    height: 106px;
+    max-width: 337px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 159%;
+    color: #000;
+
+}
+
+.accordion-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    gap: 40px;
+}
+
+.ask__content-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.accordion-list__item {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.accordion-list__control {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    padding: 15px 0 15px;
+    justify-content: end;
+    cursor: pointer;
+}
+
+
+.ask__img-two line,
+.ask__img-two circle {
+    transition: .4s;
+    
+}
+.accordion-list__item--opened .ask__img-two line{
+    transition: .4s;
+    stroke: #62666f;
+    
+}
+.accordion-list__item--opened .ask__img-two circle{
+    transition: .4s;
+    stroke: #62666f;
+    
+}
+
+.accordion-list__content {
+    overflow: hidden;
+    transition: .3s;
+    max-height: 0;
+}
+
+.accordion-content {
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 15px;
+    max-width: 800px;
+}
+
+.accordion-list__text {
+    font-size: 23px;
+}
+
+.ask__link {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 117%;
+    margin-left: 114px;
+    margin-right: auto;
+    text-align: left;
+}
+
+.ask__img {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background: #24242D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    flex-shrink: 0;
+}
+.accordion-list__item--opened .ask__img{
+    background: #23503d;
+    transition: .4s;
+
+}
+.ask__img-two {
+    justify-self: end;
+
+}
+
+.ask__item--opened {
+    display: flex;
+
+
+}
