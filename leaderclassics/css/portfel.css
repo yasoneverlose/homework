@@ -1,0 +1,191 @@
+.main__portfel {
+    padding-top: 95px;
+    padding-bottom: 245px;
+}
+
+.portfel__inner {
+    display: flex;
+    justify-content: space-around;
+    gap: 189px;
+    padding-bottom: 213px;
+}
+
+.portfel__left-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 690px;
+    width: 100%;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: -95px;
+}
+
+.portfel__profit-arc {
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+    width: 691px;
+}
+
+.portfel__profit-arc>img {
+    width: 100%;
+}
+
+
+
+.portfel__arc-poloska img {
+    width: 100%;
+}
+
+.portfel__arc-side {
+    position: absolute;
+    z-index: 3;
+}
+
+.portfel__arc-poloska {
+    left: -3px;
+    top: 65px;
+}
+
+.portfel__arc-blur {
+    position: absolute;
+    filter: blur(15px);
+    z-index: 2;
+}
+
+.portfel__low-risk {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.partfel__profit {
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 157%;
+}
+
+.partfel__profit-percent {
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 117%;
+    margin-bottom: 25px;
+}
+
+.partfel__profit-riskwrapper {
+    margin-bottom: 55px;
+    background: linear-gradient(120deg, rgba(66, 89, 74, 0.4) 0%, rgba(101, 204, 125, 0.22) 100%);
+    border-radius: 35px;
+    width: 172px;
+    height: 32px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.partfel__profit-risk {}
+
+.portfel__load {
+    position: relative;
+    width: 412px;
+    height: 11px;
+    background: #303030;
+    margin-bottom: 48px;
+}
+
+.portfel__load::before {
+    content: '';
+    display: block;
+    position: absolute;
+    inset: 0 72.7% 0 0;
+    background: #61bb75;
+}
+
+.portfel__load-circle {
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
+    background: #61bb75;
+    position: absolute;
+    right: 71%;
+    top: -5px;
+}
+
+.portfel__switch {
+    font-size: 25px;
+    line-height: 157%;
+}
+
+.portfel__switch-punkt {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.portfel__switch-punkt:first-child {
+    margin-bottom: 22px;
+}
+
+.portfel__switch-text {}
+
+.portfel__right-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 590px;
+    width: 100%;
+}
+
+.portfel__right-title {
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 117%;
+    margin-bottom: 18px;
+}
+
+.portfel__right-text {
+    font-size: 25px;
+    line-height: 158%;
+    margin-bottom: 50px;
+}
+
+.portfel__right-button {
+    max-width: 378px;
+    height: 106px;
+    font-size: 22px;
+    line-height: 159%;
+}
+
+
+.portfel__info {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    justify-content: space-between;
+}
+
+.portfel__punktik {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfel__punktik p {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 125%;
+    color: #e7e7e7;
+    text-align: center;
+}
+
+.portfel__count {
+    justify-self: start;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 117%;
+    background: linear-gradient(148deg, #65ca7c 0%, #4f815c 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
